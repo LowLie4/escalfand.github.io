@@ -1,0 +1,229 @@
+body {
+    background-color: black;
+    font-family: "Dosis", sans-serif;
+}
+
+/* Dibuixar linies */
+.lineaVertical {
+    border-left: 1px solid white;
+    height: 500px;
+    
+    position: absolute;
+}
+
+.lineaHorizontal {
+
+    border-bottom: 1px solid white;
+    display: block;
+    white-space: nowrap;
+}
+
+/* Imatges (logo, Productes) */
+
+img.logo {
+    width: 150px;
+}
+
+img.productePetit{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+img.producteNormal{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+
+
+
+/* Editar Text */
+h1 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+h2.detallProducte{
+    color: white;
+    font-size: 50px;
+    
+}
+h2.cistellaTitol{
+    color: white;
+    font-size: 40px;
+    
+}
+h3{
+    color: white;
+    
+    line-height: 0cm;
+}
+
+h6 {
+    color: white;
+    white-space: nowrap;
+}
+
+p{
+    line-height: 0.5cm;
+    color: white;
+}
+
+.productesText{
+    margin-left: 6%;
+}
+
+
+/* Editar Icons */
+i.bi-person-circle {
+    float: right;
+    color: orange;
+
+}
+
+i.bi-cart-fill {
+    float: right;
+    width: 30px;
+    color: orange;
+}
+
+/* Items de la capcelera */
+form.barraBusqueda {
+    display: flex;
+    justify-content: center;
+
+}
+
+.divisioIconsCapcelera{
+    display: grid;
+    justify-content: right;
+}
+
+
+div.centrarElement{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Tots els grids utilitzats */
+.gridCabecera {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.gridNavegador{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.gridNavegadorBlanc{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.gridProductesPrincipal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.gridDetallProducte{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+
+.gridCistellaTitol{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+
+
+/* Boto seleccionar */
+.seleccionar {
+    border-color: orange;
+    color: #fff;
+    box-shadow: 0 0 50px 50px orange inset, 0 0 0 0 orange;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.seleccionar:hover {
+    box-shadow: 0 0 10px 0 orange inset, 0 0 10px 4px orange;
+}
+
+.sessio {
+    border-color: black;
+    color: #fff;
+    box-shadow: 0 0 50px 50px black inset, 0 0 0 0 black;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.sessio:hover {
+    box-shadow: 0 0 10px 0 orange inset, 0 0 10px 4px orange;
+}
+
+.petit {
+    border-color: orange;
+    color: #fff;
+    box-shadow: 0 0 50px 50px orange inset, 0 0 0 0 orange;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    padding: 0.4em 1.9em;
+    margin-top: 1000px;
+    font-size: 0.7rem;
+      
+
+}
+
+.petit:hover {
+    box-shadow: 0 0 10px 0 orange inset, 0 0 10px 4px orange;
+}
+
+
+
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid orange;
+    border-radius: 0.6em;
+    color: white;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 0.9rem;
+    font-weight: 200;
+    line-height: 1;
+    margin: 10px;
+    padding: 1.2em 4em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 1000;
+}
+.btn:hover, .btn:focus {
+    color: #fff;
+    outline: 10;
+}
+  
